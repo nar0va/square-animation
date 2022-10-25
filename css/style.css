@@ -1,0 +1,62 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    animation-name: body;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes kvadrat {
+    0% {
+        background-color: blue;
+        border: 0px solid transparent;
+        left: 0px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: red;
+        box-sizing: border-box;
+        border: 0px solid transparent;
+        left: 300px;
+        top: 400px;
+    }
+
+    100% {
+        background-color: transparent;
+        border: 3px solid green;
+        left: 600px;
+        top: 0px;
+    }
+}
+
+.kvadrat {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: kvadrat;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes body {
+    0% {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(https://images.unsplash.com/photo-1491466424936-e304919aada7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80);
+    }
+
+    50% {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/952/536/1006/winter-4k-pc-desktop-wallpaper-preview.jpg);
+    }
+
+    100% {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/586/603/742/minimalism-4k-for-mac-desktop-wallpaper-preview.jpg);
+    }
+}
